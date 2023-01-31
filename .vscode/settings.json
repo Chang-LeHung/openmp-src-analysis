@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "libgomp.h": "c",
+    "config.h": "c",
+    "wait.h": "c",
+    "omp.h": "c",
+    "libgomp_f.h": "c",
+    "gstdint.h": "c",
+    "limits.h": "c"
+  }
+}
