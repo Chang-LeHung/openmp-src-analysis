@@ -2,251 +2,251 @@
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT alloc.lo -MD -MP -MF .deps/alloc.Tpo -c ../gcc-4.8.5/libgomp/alloc.c  -fPIC -DPIC -o .libs/alloc.o",
-		"file": "alloc.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c ../gcc-4.8.5/libgomp/critical.c  -fPIC -DPIC -o .libs/critical.o",
-		"file": "critical.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT barrier.lo -MD -MP -MF .deps/barrier.Tpo -c ../gcc-4.8.5/libgomp/barrier.c  -fPIC -DPIC -o .libs/barrier.o",
-		"file": "barrier.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c ../gcc-4.8.5/libgomp/error.c  -fPIC -DPIC -o .libs/error.o",
-		"file": "error.c"
+		"file": "../gcc-4.8.5/libgomp/alloc.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT env.lo -MD -MP -MF .deps/env.Tpo -c ../gcc-4.8.5/libgomp/env.c  -fPIC -DPIC -o .libs/env.o",
-		"file": "env.c"
+		"file": "../gcc-4.8.5/libgomp/env.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c ../gcc-4.8.5/libgomp/iter.c  -fPIC -DPIC -o .libs/iter.o",
-		"file": "iter.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c ../gcc-4.8.5/libgomp/iter_ull.c  -fPIC -DPIC -o .libs/iter_ull.o",
-		"file": "iter_ull.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c ../gcc-4.8.5/libgomp/critical.c  -fPIC -DPIC -o .libs/critical.o",
+		"file": "../gcc-4.8.5/libgomp/critical.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT loop.lo -MD -MP -MF .deps/loop.Tpo -c ../gcc-4.8.5/libgomp/loop.c  -fPIC -DPIC -o .libs/loop.o",
-		"file": "loop.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT loop_ull.lo -MD -MP -MF .deps/loop_ull.Tpo -c ../gcc-4.8.5/libgomp/loop_ull.c  -fPIC -DPIC -o .libs/loop_ull.o",
-		"file": "loop_ull.c"
+		"file": "../gcc-4.8.5/libgomp/loop.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT single.lo -MD -MP -MF .deps/single.Tpo -c ../gcc-4.8.5/libgomp/single.c  -fPIC -DPIC -o .libs/single.o",
-		"file": "single.c"
+		"file": "../gcc-4.8.5/libgomp/single.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ordered.lo -MD -MP -MF .deps/ordered.Tpo -c ../gcc-4.8.5/libgomp/ordered.c  -fPIC -DPIC -o .libs/ordered.o",
-		"file": "ordered.c"
+		"file": "../gcc-4.8.5/libgomp/ordered.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c ../gcc-4.8.5/libgomp/task.c  -fPIC -DPIC -o .libs/task.o",
-		"file": "task.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT loop_ull.lo -MD -MP -MF .deps/loop_ull.Tpo -c ../gcc-4.8.5/libgomp/loop_ull.c  -fPIC -DPIC -o .libs/loop_ull.o",
+		"file": "../gcc-4.8.5/libgomp/loop_ull.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT barrier.lo -MD -MP -MF .deps/barrier.Tpo -c ../gcc-4.8.5/libgomp/barrier.c  -fPIC -DPIC -o .libs/barrier.o",
+		"file": "../gcc-4.8.5/libgomp/barrier.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT sections.lo -MD -MP -MF .deps/sections.Tpo -c ../gcc-4.8.5/libgomp/sections.c  -fPIC -DPIC -o .libs/sections.o",
-		"file": "sections.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/lock.c  -fPIC -DPIC -o .libs/lock.o",
-		"file": "lock.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c ../gcc-4.8.5/libgomp/config/linux/proc.c  -fPIC -DPIC -o .libs/proc.o",
-		"file": "proc.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c ../gcc-4.8.5/libgomp/config/linux/bar.c  -fPIC -DPIC -o .libs/bar.o",
-		"file": "bar.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c ../gcc-4.8.5/libgomp/team.c  -fPIC -DPIC -o .libs/team.o",
-		"file": "team.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c ../gcc-4.8.5/libgomp/parallel.c  -fPIC -DPIC -o .libs/parallel.o",
-		"file": "parallel.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/ptrlock.c  -fPIC -DPIC -o .libs/ptrlock.o",
-		"file": "ptrlock.c"
+		"file": "../gcc-4.8.5/libgomp/sections.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c ../gcc-4.8.5/libgomp/config/linux/mutex.c  -fPIC -DPIC -o .libs/mutex.o",
-		"file": "mutex.c"
+		"file": "../gcc-4.8.5/libgomp/config/linux/mutex.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c ../gcc-4.8.5/libgomp/work.c  -fPIC -DPIC -o .libs/work.o",
-		"file": "work.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c ../gcc-4.8.5/libgomp/error.c  -fPIC -DPIC -o .libs/error.o",
+		"file": "../gcc-4.8.5/libgomp/error.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../gcc-4.8.5/libgomp/config/posix/time.c  -fPIC -DPIC -o .libs/time.o",
-		"file": "time.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c ../gcc-4.8.5/libgomp/iter_ull.c  -fPIC -DPIC -o .libs/iter_ull.o",
+		"file": "../gcc-4.8.5/libgomp/iter_ull.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c ../gcc-4.8.5/libgomp/config/linux/affinity.c  -fPIC -DPIC -o .libs/affinity.o",
-		"file": "affinity.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c ../gcc-4.8.5/libgomp/parallel.c  -fPIC -DPIC -o .libs/parallel.o",
+		"file": "../gcc-4.8.5/libgomp/parallel.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c ../gcc-4.8.5/libgomp/task.c  -fPIC -DPIC -o .libs/task.o",
+		"file": "../gcc-4.8.5/libgomp/task.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c ../gcc-4.8.5/libgomp/config/linux/proc.c  -fPIC -DPIC -o .libs/proc.o",
+		"file": "../gcc-4.8.5/libgomp/config/linux/proc.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT sem.lo -MD -MP -MF .deps/sem.Tpo -c ../gcc-4.8.5/libgomp/config/linux/sem.c  -fPIC -DPIC -o .libs/sem.o",
-		"file": "sem.c"
+		"file": "../gcc-4.8.5/libgomp/config/linux/sem.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/lock.c  -fPIC -DPIC -o .libs/lock.o",
+		"file": "../gcc-4.8.5/libgomp/config/linux/lock.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c ../gcc-4.8.5/libgomp/iter.c  -fPIC -DPIC -o .libs/iter.o",
+		"file": "../gcc-4.8.5/libgomp/iter.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c ../gcc-4.8.5/libgomp/team.c  -fPIC -DPIC -o .libs/team.o",
+		"file": "../gcc-4.8.5/libgomp/team.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c ../gcc-4.8.5/libgomp/config/linux/bar.c  -fPIC -DPIC -o .libs/bar.o",
+		"file": "../gcc-4.8.5/libgomp/config/linux/bar.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c ../gcc-4.8.5/libgomp/work.c  -fPIC -DPIC -o .libs/work.o",
+		"file": "../gcc-4.8.5/libgomp/work.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT fortran.lo -MD -MP -MF .deps/fortran.Tpo -c ../gcc-4.8.5/libgomp/fortran.c  -fPIC -DPIC -o .libs/fortran.o",
-		"file": "fortran.c"
+		"file": "../gcc-4.8.5/libgomp/fortran.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c ../gcc-4.8.5/libgomp/config/linux/affinity.c  -fPIC -DPIC -o .libs/affinity.o",
+		"file": "../gcc-4.8.5/libgomp/config/linux/affinity.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/ptrlock.c  -fPIC -DPIC -o .libs/ptrlock.o",
+		"file": "../gcc-4.8.5/libgomp/config/linux/ptrlock.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../gcc-4.8.5/libgomp/config/posix/time.c  -fPIC -DPIC -o .libs/time.o",
+		"file": "../gcc-4.8.5/libgomp/config/posix/time.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT alloc.lo -MD -MP -MF .deps/alloc.Tpo -c ../gcc-4.8.5/libgomp/alloc.c -o alloc.o ",
-		"file": "alloc.c"
+		"file": "../gcc-4.8.5/libgomp/alloc.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT barrier.lo -MD -MP -MF .deps/barrier.Tpo -c ../gcc-4.8.5/libgomp/barrier.c -o barrier.o ",
-		"file": "barrier.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c ../gcc-4.8.5/libgomp/critical.c -o critical.o ",
-		"file": "critical.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c ../gcc-4.8.5/libgomp/error.c -o error.o ",
-		"file": "error.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT single.lo -MD -MP -MF .deps/single.Tpo -c ../gcc-4.8.5/libgomp/single.c -o single.o ",
-		"file": "single.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT sections.lo -MD -MP -MF .deps/sections.Tpo -c ../gcc-4.8.5/libgomp/sections.c -o sections.o ",
-		"file": "sections.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ordered.lo -MD -MP -MF .deps/ordered.Tpo -c ../gcc-4.8.5/libgomp/ordered.c -o ordered.o ",
-		"file": "ordered.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c ../gcc-4.8.5/libgomp/iter_ull.c -o iter_ull.o ",
-		"file": "iter_ull.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c ../gcc-4.8.5/libgomp/iter.c -o iter.o ",
-		"file": "iter.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../gcc-4.8.5/libgomp/config/posix/time.c -o time.o ",
-		"file": "time.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/ptrlock.c -o ptrlock.o ",
-		"file": "ptrlock.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c ../gcc-4.8.5/libgomp/config/linux/bar.c -o bar.o ",
-		"file": "bar.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c ../gcc-4.8.5/libgomp/parallel.c -o parallel.o ",
-		"file": "parallel.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT loop.lo -MD -MP -MF .deps/loop.Tpo -c ../gcc-4.8.5/libgomp/loop.c -o loop.o ",
-		"file": "loop.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c ../gcc-4.8.5/libgomp/config/linux/proc.c -o proc.o ",
-		"file": "proc.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c ../gcc-4.8.5/libgomp/work.c -o work.o ",
-		"file": "work.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/lock.c -o lock.o ",
-		"file": "lock.c"
-	},
-	{
-		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT sem.lo -MD -MP -MF .deps/sem.Tpo -c ../gcc-4.8.5/libgomp/config/linux/sem.c -o sem.o ",
-		"file": "sem.c"
+		"file": "../gcc-4.8.5/libgomp/barrier.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c ../gcc-4.8.5/libgomp/config/linux/mutex.c -o mutex.o ",
-		"file": "mutex.c"
+		"file": "../gcc-4.8.5/libgomp/config/linux/mutex.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c ../gcc-4.8.5/libgomp/config/linux/affinity.c -o affinity.o ",
-		"file": "affinity.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT sections.lo -MD -MP -MF .deps/sections.Tpo -c ../gcc-4.8.5/libgomp/sections.c -o sections.o ",
+		"file": "../gcc-4.8.5/libgomp/sections.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c ../gcc-4.8.5/libgomp/task.c -o task.o ",
-		"file": "task.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c ../gcc-4.8.5/libgomp/critical.c -o critical.o ",
+		"file": "../gcc-4.8.5/libgomp/critical.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c ../gcc-4.8.5/libgomp/error.c -o error.o ",
+		"file": "../gcc-4.8.5/libgomp/error.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c ../gcc-4.8.5/libgomp/config/linux/proc.c -o proc.o ",
+		"file": "../gcc-4.8.5/libgomp/config/linux/proc.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ordered.lo -MD -MP -MF .deps/ordered.Tpo -c ../gcc-4.8.5/libgomp/ordered.c -o ordered.o ",
+		"file": "../gcc-4.8.5/libgomp/ordered.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT sem.lo -MD -MP -MF .deps/sem.Tpo -c ../gcc-4.8.5/libgomp/config/linux/sem.c -o sem.o ",
+		"file": "../gcc-4.8.5/libgomp/config/linux/sem.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c ../gcc-4.8.5/libgomp/parallel.c -o parallel.o ",
+		"file": "../gcc-4.8.5/libgomp/parallel.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT env.lo -MD -MP -MF .deps/env.Tpo -c ../gcc-4.8.5/libgomp/env.c -o env.o ",
-		"file": "env.c"
+		"file": "../gcc-4.8.5/libgomp/env.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c ../gcc-4.8.5/libgomp/config/linux/bar.c -o bar.o ",
+		"file": "../gcc-4.8.5/libgomp/config/linux/bar.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../gcc-4.8.5/libgomp/config/posix/time.c -o time.o ",
+		"file": "../gcc-4.8.5/libgomp/config/posix/time.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c ../gcc-4.8.5/libgomp/iter.c -o iter.o ",
+		"file": "../gcc-4.8.5/libgomp/iter.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT single.lo -MD -MP -MF .deps/single.Tpo -c ../gcc-4.8.5/libgomp/single.c -o single.o ",
+		"file": "../gcc-4.8.5/libgomp/single.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT loop_ull.lo -MD -MP -MF .deps/loop_ull.Tpo -c ../gcc-4.8.5/libgomp/loop_ull.c -o loop_ull.o ",
-		"file": "loop_ull.c"
+		"file": "../gcc-4.8.5/libgomp/loop_ull.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c ../gcc-4.8.5/libgomp/team.c -o team.o ",
-		"file": "team.c"
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c ../gcc-4.8.5/libgomp/work.c -o work.o ",
+		"file": "../gcc-4.8.5/libgomp/work.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c ../gcc-4.8.5/libgomp/config/linux/affinity.c -o affinity.o ",
+		"file": "../gcc-4.8.5/libgomp/config/linux/affinity.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT loop.lo -MD -MP -MF .deps/loop.Tpo -c ../gcc-4.8.5/libgomp/loop.c -o loop.o ",
+		"file": "../gcc-4.8.5/libgomp/loop.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/ptrlock.c -o ptrlock.o ",
+		"file": "../gcc-4.8.5/libgomp/config/linux/ptrlock.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c ../gcc-4.8.5/libgomp/config/linux/lock.c -o lock.o ",
+		"file": "../gcc-4.8.5/libgomp/config/linux/lock.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c ../gcc-4.8.5/libgomp/iter_ull.c -o iter_ull.o ",
+		"file": "../gcc-4.8.5/libgomp/iter_ull.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c ../gcc-4.8.5/libgomp/task.c -o task.o ",
+		"file": "../gcc-4.8.5/libgomp/task.c"
 	},
 	{
 		"directory": "/root/gcc/gcc-4.8.5/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT fortran.lo -MD -MP -MF .deps/fortran.Tpo -c ../gcc-4.8.5/libgomp/fortran.c -o fortran.o ",
-		"file": "fortran.c"
+		"file": "../gcc-4.8.5/libgomp/fortran.c"
+	},
+	{
+		"directory": "/root/gcc/gcc-4.8.5/openmp",
+		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-4.8.5/libgomp -I../gcc-4.8.5/libgomp/config/linux/x86 -I../gcc-4.8.5/libgomp/config/linux -I../gcc-4.8.5/libgomp/config/posix -I../gcc-4.8.5/libgomp -Wall -Werror -pthread -ftls-model=initial-exec -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c ../gcc-4.8.5/libgomp/team.c -o team.o ",
+		"file": "../gcc-4.8.5/libgomp/team.c"
 	}
 ]
