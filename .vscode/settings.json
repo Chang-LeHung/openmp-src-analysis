@@ -7,6 +7,8 @@
     "stdlib.h": "c",
     "mutex.h": "c",
     "libgomp-plugin.h": "c",
-    "gomp-constants.h": "c"
+    "gomp-constants.h": "c",
+    "wait.h": "c",
+    "errno.h": "c"
   }
 }

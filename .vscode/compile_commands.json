@@ -1,662 +1,442 @@
 [
 	{
 		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-target.lo -MD -MP -MF .deps/oacc-target.Tpo -c -o oacc-target.lo ../gcc-11.1.0/libgomp/oacc-target.c",
-		"file": "oacc-target.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT alloc.lo -MD -MP -MF .deps/alloc.Tpo -c -o alloc.lo ../gcc-11.1.0/libgomp/alloc.c",
-		"file": "alloc.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT atomic.lo -MD -MP -MF .deps/atomic.Tpo -c -o atomic.lo ../gcc-11.1.0/libgomp/atomic.c",
-		"file": "atomic.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT barrier.lo -MD -MP -MF .deps/barrier.Tpo -c -o barrier.lo ../gcc-11.1.0/libgomp/barrier.c",
-		"file": "barrier.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c -o critical.lo ../gcc-11.1.0/libgomp/critical.c",
-		"file": "critical.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT env.lo -MD -MP -MF .deps/env.Tpo -c -o env.lo ../gcc-11.1.0/libgomp/env.c",
-		"file": "env.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo ../gcc-11.1.0/libgomp/error.c",
-		"file": "error.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT icv.lo -MD -MP -MF .deps/icv.Tpo -c -o icv.lo ../gcc-11.1.0/libgomp/icv.c",
-		"file": "icv.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT icv-device.lo -MD -MP -MF .deps/icv-device.Tpo -c -o icv-device.lo ../gcc-11.1.0/libgomp/icv-device.c",
-		"file": "icv-device.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c -o iter.lo ../gcc-11.1.0/libgomp/iter.c",
-		"file": "iter.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c -o iter_ull.lo ../gcc-11.1.0/libgomp/iter_ull.c",
-		"file": "iter_ull.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT loop.lo -MD -MP -MF .deps/loop.Tpo -c -o loop.lo ../gcc-11.1.0/libgomp/loop.c",
-		"file": "loop.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT loop_ull.lo -MD -MP -MF .deps/loop_ull.Tpo -c -o loop_ull.lo ../gcc-11.1.0/libgomp/loop_ull.c",
-		"file": "loop_ull.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT ordered.lo -MD -MP -MF .deps/ordered.Tpo -c -o ordered.lo ../gcc-11.1.0/libgomp/ordered.c",
-		"file": "ordered.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c -o parallel.lo ../gcc-11.1.0/libgomp/parallel.c",
-		"file": "parallel.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT sections.lo -MD -MP -MF .deps/sections.Tpo -c -o sections.lo ../gcc-11.1.0/libgomp/sections.c",
-		"file": "sections.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT single.lo -MD -MP -MF .deps/single.Tpo -c -o single.lo ../gcc-11.1.0/libgomp/single.c",
-		"file": "single.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-target.lo -MD -MP -MF .deps/oacc-target.Tpo -c ../gcc-11.1.0/libgomp/oacc-target.c  -fPIC -DPIC -o .libs/oacc-target.o",
-		"file": "oacc-target.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c -o task.lo ../gcc-11.1.0/libgomp/task.c",
-		"file": "task.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c -o team.lo ../gcc-11.1.0/libgomp/team.c",
-		"file": "team.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c -o work.lo ../gcc-11.1.0/libgomp/work.c",
-		"file": "work.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-target.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT alloc.lo -MD -MP -MF .deps/alloc.Tpo -c ../gcc-11.1.0/libgomp/alloc.c  -fPIC -DPIC -o .libs/alloc.o",
-		"file": "alloc.c"
+		"file": "../gcc-11.1.0/libgomp/alloc.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT barrier.lo -MD -MP -MF .deps/barrier.Tpo -c ../gcc-11.1.0/libgomp/barrier.c  -fPIC -DPIC -o .libs/barrier.o",
-		"file": "barrier.c"
+		"file": "../gcc-11.1.0/libgomp/barrier.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT env.lo -MD -MP -MF .deps/env.Tpo -c ../gcc-11.1.0/libgomp/env.c  -fPIC -DPIC -o .libs/env.o",
-		"file": "env.c"
+		"file": "../gcc-11.1.0/libgomp/env.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c ../gcc-11.1.0/libgomp/critical.c  -fPIC -DPIC -o .libs/critical.o",
-		"file": "critical.c"
+		"file": "../gcc-11.1.0/libgomp/critical.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT atomic.lo -MD -MP -MF .deps/atomic.Tpo -c ../gcc-11.1.0/libgomp/atomic.c  -fPIC -DPIC -o .libs/atomic.o",
-		"file": "atomic.c"
+		"file": "../gcc-11.1.0/libgomp/atomic.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT icv-device.lo -MD -MP -MF .deps/icv-device.Tpo -c ../gcc-11.1.0/libgomp/icv-device.c  -fPIC -DPIC -o .libs/icv-device.o",
-		"file": "icv-device.c"
+		"file": "../gcc-11.1.0/libgomp/icv-device.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c ../gcc-11.1.0/libgomp/error.c  -fPIC -DPIC -o .libs/error.o",
-		"file": "error.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c -o lock.lo ../gcc-11.1.0/libgomp/config/linux/lock.c",
-		"file": "lock.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c -o mutex.lo ../gcc-11.1.0/libgomp/config/linux/mutex.c",
-		"file": "mutex.c"
+		"file": "../gcc-11.1.0/libgomp/error.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c ../gcc-11.1.0/libgomp/iter.c  -fPIC -DPIC -o .libs/iter.o",
-		"file": "iter.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c -o proc.lo ../gcc-11.1.0/libgomp/config/linux/proc.c",
-		"file": "proc.c"
+		"file": "../gcc-11.1.0/libgomp/iter.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT loop.lo -MD -MP -MF .deps/loop.Tpo -c ../gcc-11.1.0/libgomp/loop.c  -fPIC -DPIC -o .libs/loop.o",
-		"file": "loop.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT sem.lo -MD -MP -MF .deps/sem.Tpo -c -o sem.lo ../gcc-11.1.0/libgomp/config/linux/sem.c",
-		"file": "sem.c"
+		"file": "../gcc-11.1.0/libgomp/loop.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT icv.lo -MD -MP -MF .deps/icv.Tpo -c ../gcc-11.1.0/libgomp/icv.c  -fPIC -DPIC -o .libs/icv.o",
-		"file": "icv.c"
+		"file": "../gcc-11.1.0/libgomp/icv.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT loop_ull.lo -MD -MP -MF .deps/loop_ull.Tpo -c ../gcc-11.1.0/libgomp/loop_ull.c  -fPIC -DPIC -o .libs/loop_ull.o",
-		"file": "loop_ull.c"
+		"file": "../gcc-11.1.0/libgomp/loop_ull.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-target.lo -MD -MP -MF .deps/oacc-target.Tpo -c ../gcc-11.1.0/libgomp/oacc-target.c -o oacc-target.o ",
-		"file": "oacc-target.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c -o bar.lo ../gcc-11.1.0/libgomp/config/linux/bar.c",
-		"file": "bar.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-target.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT ordered.lo -MD -MP -MF .deps/ordered.Tpo -c ../gcc-11.1.0/libgomp/ordered.c  -fPIC -DPIC -o .libs/ordered.o",
-		"file": "ordered.c"
+		"file": "../gcc-11.1.0/libgomp/ordered.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c ../gcc-11.1.0/libgomp/team.c  -fPIC -DPIC -o .libs/team.o",
-		"file": "team.c"
+		"file": "../gcc-11.1.0/libgomp/team.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT sections.lo -MD -MP -MF .deps/sections.Tpo -c ../gcc-11.1.0/libgomp/sections.c  -fPIC -DPIC -o .libs/sections.o",
-		"file": "sections.c"
+		"file": "../gcc-11.1.0/libgomp/sections.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c ../gcc-11.1.0/libgomp/iter_ull.c  -fPIC -DPIC -o .libs/iter_ull.o",
-		"file": "iter_ull.c"
+		"file": "../gcc-11.1.0/libgomp/iter_ull.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c ../gcc-11.1.0/libgomp/parallel.c  -fPIC -DPIC -o .libs/parallel.o",
-		"file": "parallel.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c -o ptrlock.lo ../gcc-11.1.0/libgomp/config/linux/ptrlock.c",
-		"file": "ptrlock.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c -o time.lo ../gcc-11.1.0/libgomp/config/posix/time.c",
-		"file": "time.c"
+		"file": "../gcc-11.1.0/libgomp/parallel.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c ../gcc-11.1.0/libgomp/task.c  -fPIC -DPIC -o .libs/task.o",
-		"file": "task.c"
+		"file": "../gcc-11.1.0/libgomp/task.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c ../gcc-11.1.0/libgomp/work.c  -fPIC -DPIC -o .libs/work.o",
-		"file": "work.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT fortran.lo -MD -MP -MF .deps/fortran.Tpo -c -o fortran.lo ../gcc-11.1.0/libgomp/fortran.c",
-		"file": "fortran.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c -o affinity.lo ../gcc-11.1.0/libgomp/config/linux/affinity.c",
-		"file": "affinity.c"
+		"file": "../gcc-11.1.0/libgomp/work.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT single.lo -MD -MP -MF .deps/single.Tpo -c ../gcc-11.1.0/libgomp/single.c  -fPIC -DPIC -o .libs/single.o",
-		"file": "single.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT target.lo -MD -MP -MF .deps/target.Tpo -c -o target.lo ../gcc-11.1.0/libgomp/target.c",
-		"file": "target.c"
+		"file": "../gcc-11.1.0/libgomp/single.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c ../gcc-11.1.0/libgomp/config/linux/mutex.c  -fPIC -DPIC -o .libs/mutex.o",
-		"file": "mutex.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT splay-tree.lo -MD -MP -MF .deps/splay-tree.Tpo -c -o splay-tree.lo ../gcc-11.1.0/libgomp/splay-tree.c",
-		"file": "splay-tree.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/mutex.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c ../gcc-11.1.0/libgomp/config/linux/proc.c  -fPIC -DPIC -o .libs/proc.o",
-		"file": "proc.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/proc.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c ../gcc-11.1.0/libgomp/config/linux/lock.c  -fPIC -DPIC -o .libs/lock.o",
-		"file": "lock.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT libgomp-plugin.lo -MD -MP -MF .deps/libgomp-plugin.Tpo -c -o libgomp-plugin.lo ../gcc-11.1.0/libgomp/libgomp-plugin.c",
-		"file": "libgomp-plugin.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/lock.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c ../gcc-11.1.0/libgomp/config/linux/affinity.c  -fPIC -DPIC -o .libs/affinity.o",
-		"file": "affinity.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/affinity.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c ../gcc-11.1.0/libgomp/config/linux/ptrlock.c  -fPIC -DPIC -o .libs/ptrlock.o",
-		"file": "ptrlock.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/ptrlock.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT target.lo -MD -MP -MF .deps/target.Tpo -c ../gcc-11.1.0/libgomp/target.c  -fPIC -DPIC -o .libs/target.o",
-		"file": "target.c"
+		"file": "../gcc-11.1.0/libgomp/target.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT fortran.lo -MD -MP -MF .deps/fortran.Tpo -c ../gcc-11.1.0/libgomp/fortran.c  -fPIC -DPIC -o .libs/fortran.o",
-		"file": "fortran.c"
+		"file": "../gcc-11.1.0/libgomp/fortran.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c ../gcc-11.1.0/libgomp/config/linux/bar.c  -fPIC -DPIC -o .libs/bar.o",
-		"file": "bar.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/bar.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT sem.lo -MD -MP -MF .deps/sem.Tpo -c ../gcc-11.1.0/libgomp/config/linux/sem.c  -fPIC -DPIC -o .libs/sem.o",
-		"file": "sem.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/sem.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT alloc.lo -MD -MP -MF .deps/alloc.Tpo -c ../gcc-11.1.0/libgomp/alloc.c -o alloc.o ",
-		"file": "alloc.c"
+		"file": "../gcc-11.1.0/libgomp/alloc.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT icv-device.lo -MD -MP -MF .deps/icv-device.Tpo -c ../gcc-11.1.0/libgomp/icv-device.c -o icv-device.o ",
-		"file": "icv-device.c"
+		"file": "../gcc-11.1.0/libgomp/icv-device.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT barrier.lo -MD -MP -MF .deps/barrier.Tpo -c ../gcc-11.1.0/libgomp/barrier.c -o barrier.o ",
-		"file": "barrier.c"
+		"file": "../gcc-11.1.0/libgomp/barrier.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../gcc-11.1.0/libgomp/config/posix/time.c  -fPIC -DPIC -o .libs/time.o",
-		"file": "time.c"
+		"file": "../gcc-11.1.0/libgomp/config/posix/time.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT atomic.lo -MD -MP -MF .deps/atomic.Tpo -c ../gcc-11.1.0/libgomp/atomic.c -o atomic.o ",
-		"file": "atomic.c"
+		"file": "../gcc-11.1.0/libgomp/atomic.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT critical.lo -MD -MP -MF .deps/critical.Tpo -c ../gcc-11.1.0/libgomp/critical.c -o critical.o ",
-		"file": "critical.c"
+		"file": "../gcc-11.1.0/libgomp/critical.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT error.lo -MD -MP -MF .deps/error.Tpo -c ../gcc-11.1.0/libgomp/error.c -o error.o ",
-		"file": "error.c"
+		"file": "../gcc-11.1.0/libgomp/error.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT splay-tree.lo -MD -MP -MF .deps/splay-tree.Tpo -c ../gcc-11.1.0/libgomp/splay-tree.c  -fPIC -DPIC -o .libs/splay-tree.o",
-		"file": "splay-tree.c"
+		"file": "../gcc-11.1.0/libgomp/splay-tree.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT libgomp-plugin.lo -MD -MP -MF .deps/libgomp-plugin.Tpo -c ../gcc-11.1.0/libgomp/libgomp-plugin.c  -fPIC -DPIC -o .libs/libgomp-plugin.o",
-		"file": "libgomp-plugin.c"
+		"file": "../gcc-11.1.0/libgomp/libgomp-plugin.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT icv.lo -MD -MP -MF .deps/icv.Tpo -c ../gcc-11.1.0/libgomp/icv.c -o icv.o ",
-		"file": "icv.c"
+		"file": "../gcc-11.1.0/libgomp/icv.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT iter.lo -MD -MP -MF .deps/iter.Tpo -c ../gcc-11.1.0/libgomp/iter.c -o iter.o ",
-		"file": "iter.c"
+		"file": "../gcc-11.1.0/libgomp/iter.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c ../gcc-11.1.0/libgomp/config/linux/mutex.c -o mutex.o ",
-		"file": "mutex.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/mutex.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT iter_ull.lo -MD -MP -MF .deps/iter_ull.Tpo -c ../gcc-11.1.0/libgomp/iter_ull.c -o iter_ull.o ",
-		"file": "iter_ull.c"
+		"file": "../gcc-11.1.0/libgomp/iter_ull.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT sections.lo -MD -MP -MF .deps/sections.Tpo -c ../gcc-11.1.0/libgomp/sections.c -o sections.o ",
-		"file": "sections.c"
+		"file": "../gcc-11.1.0/libgomp/sections.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT parallel.lo -MD -MP -MF .deps/parallel.Tpo -c ../gcc-11.1.0/libgomp/parallel.c -o parallel.o ",
-		"file": "parallel.c"
+		"file": "../gcc-11.1.0/libgomp/parallel.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT single.lo -MD -MP -MF .deps/single.Tpo -c ../gcc-11.1.0/libgomp/single.c -o single.o ",
-		"file": "single.c"
+		"file": "../gcc-11.1.0/libgomp/single.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT work.lo -MD -MP -MF .deps/work.Tpo -c ../gcc-11.1.0/libgomp/work.c -o work.o ",
-		"file": "work.c"
+		"file": "../gcc-11.1.0/libgomp/work.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT proc.lo -MD -MP -MF .deps/proc.Tpo -c ../gcc-11.1.0/libgomp/config/linux/proc.c -o proc.o ",
-		"file": "proc.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/proc.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT ptrlock.lo -MD -MP -MF .deps/ptrlock.Tpo -c ../gcc-11.1.0/libgomp/config/linux/ptrlock.c -o ptrlock.o ",
-		"file": "ptrlock.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-parallel.lo -MD -MP -MF .deps/oacc-parallel.Tpo -c -o oacc-parallel.lo ../gcc-11.1.0/libgomp/oacc-parallel.c",
-		"file": "oacc-parallel.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/ptrlock.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT loop_ull.lo -MD -MP -MF .deps/loop_ull.Tpo -c ../gcc-11.1.0/libgomp/loop_ull.c -o loop_ull.o ",
-		"file": "loop_ull.c"
+		"file": "../gcc-11.1.0/libgomp/loop_ull.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../gcc-11.1.0/libgomp/config/posix/time.c -o time.o ",
-		"file": "time.c"
+		"file": "../gcc-11.1.0/libgomp/config/posix/time.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT splay-tree.lo -MD -MP -MF .deps/splay-tree.Tpo -c ../gcc-11.1.0/libgomp/splay-tree.c -o splay-tree.o ",
-		"file": "splay-tree.c"
+		"file": "../gcc-11.1.0/libgomp/splay-tree.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT loop.lo -MD -MP -MF .deps/loop.Tpo -c ../gcc-11.1.0/libgomp/loop.c -o loop.o ",
-		"file": "loop.c"
+		"file": "../gcc-11.1.0/libgomp/loop.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT ordered.lo -MD -MP -MF .deps/ordered.Tpo -c ../gcc-11.1.0/libgomp/ordered.c -o ordered.o ",
-		"file": "ordered.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-host.lo -MD -MP -MF .deps/oacc-host.Tpo -c -o oacc-host.lo ../gcc-11.1.0/libgomp/oacc-host.c",
-		"file": "oacc-host.c"
+		"file": "../gcc-11.1.0/libgomp/ordered.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT lock.lo -MD -MP -MF .deps/lock.Tpo -c ../gcc-11.1.0/libgomp/config/linux/lock.c -o lock.o ",
-		"file": "lock.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/lock.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT libgomp-plugin.lo -MD -MP -MF .deps/libgomp-plugin.Tpo -c ../gcc-11.1.0/libgomp/libgomp-plugin.c -o libgomp-plugin.o ",
-		"file": "libgomp-plugin.c"
+		"file": "../gcc-11.1.0/libgomp/libgomp-plugin.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT bar.lo -MD -MP -MF .deps/bar.Tpo -c ../gcc-11.1.0/libgomp/config/linux/bar.c -o bar.o ",
-		"file": "bar.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/bar.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT affinity.lo -MD -MP -MF .deps/affinity.Tpo -c ../gcc-11.1.0/libgomp/config/linux/affinity.c -o affinity.o ",
-		"file": "affinity.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-init.lo -MD -MP -MF .deps/oacc-init.Tpo -c -o oacc-init.lo ../gcc-11.1.0/libgomp/oacc-init.c",
-		"file": "oacc-init.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/affinity.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT sem.lo -MD -MP -MF .deps/sem.Tpo -c ../gcc-11.1.0/libgomp/config/linux/sem.c -o sem.o ",
-		"file": "sem.c"
+		"file": "../gcc-11.1.0/libgomp/config/linux/sem.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-parallel.lo -MD -MP -MF .deps/oacc-parallel.Tpo -c ../gcc-11.1.0/libgomp/oacc-parallel.c  -fPIC -DPIC -o .libs/oacc-parallel.o",
-		"file": "oacc-parallel.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-mem.lo -MD -MP -MF .deps/oacc-mem.Tpo -c -o oacc-mem.lo ../gcc-11.1.0/libgomp/oacc-mem.c",
-		"file": "oacc-mem.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-async.lo -MD -MP -MF .deps/oacc-async.Tpo -c -o oacc-async.lo ../gcc-11.1.0/libgomp/oacc-async.c",
-		"file": "oacc-async.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-parallel.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-host.lo -MD -MP -MF .deps/oacc-host.Tpo -c ../gcc-11.1.0/libgomp/oacc-host.c  -fPIC -DPIC -o .libs/oacc-host.o",
-		"file": "oacc-host.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-host.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT fortran.lo -MD -MP -MF .deps/fortran.Tpo -c ../gcc-11.1.0/libgomp/fortran.c -o fortran.o ",
-		"file": "fortran.c"
+		"file": "../gcc-11.1.0/libgomp/fortran.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT team.lo -MD -MP -MF .deps/team.Tpo -c ../gcc-11.1.0/libgomp/team.c -o team.o ",
-		"file": "team.c"
+		"file": "../gcc-11.1.0/libgomp/team.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-mem.lo -MD -MP -MF .deps/oacc-mem.Tpo -c ../gcc-11.1.0/libgomp/oacc-mem.c  -fPIC -DPIC -o .libs/oacc-mem.o",
-		"file": "oacc-mem.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-plugin.lo -MD -MP -MF .deps/oacc-plugin.Tpo -c -o oacc-plugin.lo ../gcc-11.1.0/libgomp/oacc-plugin.c",
-		"file": "oacc-plugin.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-cuda.lo -MD -MP -MF .deps/oacc-cuda.Tpo -c -o oacc-cuda.lo ../gcc-11.1.0/libgomp/oacc-cuda.c",
-		"file": "oacc-cuda.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-mem.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-init.lo -MD -MP -MF .deps/oacc-init.Tpo -c ../gcc-11.1.0/libgomp/oacc-init.c  -fPIC -DPIC -o .libs/oacc-init.o",
-		"file": "oacc-init.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-init.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-async.lo -MD -MP -MF .deps/oacc-async.Tpo -c ../gcc-11.1.0/libgomp/oacc-async.c  -fPIC -DPIC -o .libs/oacc-async.o",
-		"file": "oacc-async.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT priority_queue.lo -MD -MP -MF .deps/priority_queue.Tpo -c -o priority_queue.lo ../gcc-11.1.0/libgomp/priority_queue.c",
-		"file": "priority_queue.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT affinity-fmt.lo -MD -MP -MF .deps/affinity-fmt.Tpo -c -o affinity-fmt.lo ../gcc-11.1.0/libgomp/affinity-fmt.c",
-		"file": "affinity-fmt.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT teams.lo -MD -MP -MF .deps/teams.Tpo -c -o teams.lo ../gcc-11.1.0/libgomp/teams.c",
-		"file": "teams.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-async.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT env.lo -MD -MP -MF .deps/env.Tpo -c ../gcc-11.1.0/libgomp/env.c -o env.o ",
-		"file": "env.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT allocator.lo -MD -MP -MF .deps/allocator.Tpo -c -o allocator.lo ../gcc-11.1.0/libgomp/allocator.c",
-		"file": "allocator.c"
-	},
-	{
-		"directory": "/root/gcc/openmp",
-		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp  -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include  -Wall -Werror -ftls-model=initial-exec -DUSING_INITIAL_EXEC_TLS -Wc,-pthread  -g -pthread -MT oacc-profiling.lo -MD -MP -MF .deps/oacc-profiling.Tpo -c -o oacc-profiling.lo ../gcc-11.1.0/libgomp/oacc-profiling.c",
-		"file": "oacc-profiling.c"
+		"file": "../gcc-11.1.0/libgomp/env.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-cuda.lo -MD -MP -MF .deps/oacc-cuda.Tpo -c ../gcc-11.1.0/libgomp/oacc-cuda.c  -fPIC -DPIC -o .libs/oacc-cuda.o",
-		"file": "oacc-cuda.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-cuda.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT affinity-fmt.lo -MD -MP -MF .deps/affinity-fmt.Tpo -c ../gcc-11.1.0/libgomp/affinity-fmt.c  -fPIC -DPIC -o .libs/affinity-fmt.o",
-		"file": "affinity-fmt.c"
+		"file": "../gcc-11.1.0/libgomp/affinity-fmt.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT priority_queue.lo -MD -MP -MF .deps/priority_queue.Tpo -c ../gcc-11.1.0/libgomp/priority_queue.c  -fPIC -DPIC -o .libs/priority_queue.o",
-		"file": "priority_queue.c"
+		"file": "../gcc-11.1.0/libgomp/priority_queue.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT teams.lo -MD -MP -MF .deps/teams.Tpo -c ../gcc-11.1.0/libgomp/teams.c  -fPIC -DPIC -o .libs/teams.o",
-		"file": "teams.c"
+		"file": "../gcc-11.1.0/libgomp/teams.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT allocator.lo -MD -MP -MF .deps/allocator.Tpo -c ../gcc-11.1.0/libgomp/allocator.c  -fPIC -DPIC -o .libs/allocator.o",
-		"file": "allocator.c"
+		"file": "../gcc-11.1.0/libgomp/allocator.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-plugin.lo -MD -MP -MF .deps/oacc-plugin.Tpo -c ../gcc-11.1.0/libgomp/oacc-plugin.c  -fPIC -DPIC -o .libs/oacc-plugin.o",
-		"file": "oacc-plugin.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-plugin.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-profiling.lo -MD -MP -MF .deps/oacc-profiling.Tpo -c ../gcc-11.1.0/libgomp/oacc-profiling.c  -fPIC -DPIC -o .libs/oacc-profiling.o",
-		"file": "oacc-profiling.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-profiling.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-host.lo -MD -MP -MF .deps/oacc-host.Tpo -c ../gcc-11.1.0/libgomp/oacc-host.c -o oacc-host.o ",
-		"file": "oacc-host.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-host.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-parallel.lo -MD -MP -MF .deps/oacc-parallel.Tpo -c ../gcc-11.1.0/libgomp/oacc-parallel.c -o oacc-parallel.o ",
-		"file": "oacc-parallel.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-parallel.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT teams.lo -MD -MP -MF .deps/teams.Tpo -c ../gcc-11.1.0/libgomp/teams.c -o teams.o ",
-		"file": "teams.c"
+		"file": "../gcc-11.1.0/libgomp/teams.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-cuda.lo -MD -MP -MF .deps/oacc-cuda.Tpo -c ../gcc-11.1.0/libgomp/oacc-cuda.c -o oacc-cuda.o ",
-		"file": "oacc-cuda.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-cuda.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-async.lo -MD -MP -MF .deps/oacc-async.Tpo -c ../gcc-11.1.0/libgomp/oacc-async.c -o oacc-async.o ",
-		"file": "oacc-async.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-async.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-plugin.lo -MD -MP -MF .deps/oacc-plugin.Tpo -c ../gcc-11.1.0/libgomp/oacc-plugin.c -o oacc-plugin.o ",
-		"file": "oacc-plugin.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-plugin.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT priority_queue.lo -MD -MP -MF .deps/priority_queue.Tpo -c ../gcc-11.1.0/libgomp/priority_queue.c -o priority_queue.o ",
-		"file": "priority_queue.c"
+		"file": "../gcc-11.1.0/libgomp/priority_queue.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT allocator.lo -MD -MP -MF .deps/allocator.Tpo -c ../gcc-11.1.0/libgomp/allocator.c -o allocator.o ",
-		"file": "allocator.c"
+		"file": "../gcc-11.1.0/libgomp/allocator.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-init.lo -MD -MP -MF .deps/oacc-init.Tpo -c ../gcc-11.1.0/libgomp/oacc-init.c -o oacc-init.o ",
-		"file": "oacc-init.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-init.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT affinity-fmt.lo -MD -MP -MF .deps/affinity-fmt.Tpo -c ../gcc-11.1.0/libgomp/affinity-fmt.c -o affinity-fmt.o ",
-		"file": "affinity-fmt.c"
+		"file": "../gcc-11.1.0/libgomp/affinity-fmt.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-profiling.lo -MD -MP -MF .deps/oacc-profiling.Tpo -c ../gcc-11.1.0/libgomp/oacc-profiling.c -o oacc-profiling.o ",
-		"file": "oacc-profiling.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-profiling.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT oacc-mem.lo -MD -MP -MF .deps/oacc-mem.Tpo -c ../gcc-11.1.0/libgomp/oacc-mem.c -o oacc-mem.o ",
-		"file": "oacc-mem.c"
+		"file": "../gcc-11.1.0/libgomp/oacc-mem.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT task.lo -MD -MP -MF .deps/task.Tpo -c ../gcc-11.1.0/libgomp/task.c -o task.o ",
-		"file": "task.c"
+		"file": "../gcc-11.1.0/libgomp/task.c"
 	},
 	{
 		"directory": "/root/gcc/openmp",
 		"command": "gcc -DHAVE_CONFIG_H -I. -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/config/linux/x86 -I../gcc-11.1.0/libgomp/config/linux -I../gcc-11.1.0/libgomp/config/posix -I../gcc-11.1.0/libgomp -I../gcc-11.1.0/libgomp/../include -Wall -Werror -ftls-model=initial-exec -pthread -DUSING_INITIAL_EXEC_TLS -g -pthread -MT target.lo -MD -MP -MF .deps/target.Tpo -c ../gcc-11.1.0/libgomp/target.c -o target.o ",
-		"file": "target.c"
+		"file": "../gcc-11.1.0/libgomp/target.c"
 	}
 ]
