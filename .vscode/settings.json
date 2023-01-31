@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "string.h": "c",
+    "sem.h": "c",
+    "libgomp.h": "c",
+    "stdint.h": "c",
+    "stdlib.h": "c",
+    "mutex.h": "c",
+    "libgomp-plugin.h": "c",
+    "gomp-constants.h": "c"
+  }
+}
